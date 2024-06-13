@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "SteamVR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR_Windows_EditorHelper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR.dll": {}
+        }
+      },
+      "SteamVR_Actions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR_Actions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Actions.dll": {}
+        }
+      },
+      "SteamVR_Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR_Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Editor.dll": {}
+        }
+      },
+      "SteamVR_Input_Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR_Input_Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Input_Editor.dll": {}
+        }
+      },
+      "SteamVR_Windows_EditorHelper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SteamVR_Windows_EditorHelper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Windows_EditorHelper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SteamVR/1.0.0": {
+      "type": "project",
+      "path": "SteamVR.csproj",
+      "msbuildProject": "SteamVR.csproj"
+    },
+    "SteamVR_Actions/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Actions.csproj",
+      "msbuildProject": "SteamVR_Actions.csproj"
+    },
+    "SteamVR_Editor/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Editor.csproj",
+      "msbuildProject": "SteamVR_Editor.csproj"
+    },
+    "SteamVR_Input_Editor/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Input_Editor.csproj",
+      "msbuildProject": "SteamVR_Input_Editor.csproj"
+    },
+    "SteamVR_Windows_EditorHelper/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Windows_EditorHelper.csproj",
+      "msbuildProject": "SteamVR_Windows_EditorHelper.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "SteamVR >= 1.0.0",
+      "SteamVR_Actions >= 1.0.0",
+      "SteamVR_Editor >= 1.0.0",
+      "SteamVR_Input_Editor >= 1.0.0",
+      "SteamVR_Windows_EditorHelper >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Server09404\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\Server09404\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Server09404\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR.csproj": {
+              "projectPath": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR.csproj"
+            },
+            "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Actions.csproj": {
+              "projectPath": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Actions.csproj"
+            },
+            "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Editor.csproj": {
+              "projectPath": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Editor.csproj"
+            },
+            "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Input_Editor.csproj": {
+              "projectPath": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Input_Editor.csproj"
+            },
+            "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Windows_EditorHelper.csproj": {
+              "projectPath": "C:\\Users\\Server09404\\Documents\\Unity Project\\VR-LocomotionTest\\SteamVR_Windows_EditorHelper.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
